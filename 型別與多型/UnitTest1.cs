@@ -8,7 +8,7 @@ public class UnitTest1
     public void Test1()
     {
         var dog = new Dog();
-        
+
         dog.Sound().Should().Be("Unknown bark");
 
         var dog1 = new Dog("PuPu");
@@ -20,6 +20,30 @@ public class UnitTest1
     public void Test2()
     {
         var dog = new Animal();
-        dog.Sound().Should().Be("Unknown bark");
+        dog.Sound().Should().Be("@#$%^&*(O");
+    }
+
+    [Fact]
+    public void Test3()
+    {
+        Animal dog = new Dog();
+
+        dog.Sound().Should().Be("@#$%^&*(O");
+    }
+
+    [Fact]
+    public void Test4_override()
+    {
+        Animal dog = new Dog();
+
+        dog.Sound2().Should().Be("Unknown bark");
+    }
+
+    [Fact]
+    public void Test5()
+    {
+        Dog dog = new Dog();
+        dog.Play().Should().Be("Playing");
+        dog.Eat2().Should().Be("Dog is eating");
     }
 }
