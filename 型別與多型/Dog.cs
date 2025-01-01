@@ -9,7 +9,14 @@ public class Dog
     public Dog()
     {
         _name = "Unknown";
+        Food = "meat";
     }
+
+    public Dog(string name): this()
+    {
+        _name = name;
+    }
+
     public string Sound()
     {
         return $"{_name} bark";

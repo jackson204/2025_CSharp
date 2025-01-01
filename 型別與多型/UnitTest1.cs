@@ -9,5 +9,9 @@ public class UnitTest1
     {
         var dog = new Dog();
         dog.Sound().Should().Be("Unknown bark");
+
+        var dog1 = new Dog("PuPu");
+        dog1.Sound().Should().Be("PuPu bark");
+        dog1.Food.Should().Be("meat");
     }
 }
