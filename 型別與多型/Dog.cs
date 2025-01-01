@@ -1,24 +1,23 @@
 namespace 型別與多型;
 
-public class Dog
+public class Dog : Animal
 {
-    private string _name;
-
     public string Food { get; set; }
 
     public Dog()
     {
-        _name = "Unknown";
+        Name = "Unknown";
         Food = "meat";
     }
 
-    public Dog(string name): this()
+    public Dog(string name)
+        : this()
     {
-        _name = name;
+        Name = name;
     }
 
     public string Sound()
     {
-        return $"{_name} bark";
+        return $"{Name} bark";
     }
 }
