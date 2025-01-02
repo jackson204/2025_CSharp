@@ -29,11 +29,23 @@ public class Dog : Animal
 
     public string Play() => "Playing";
 
+    public string Play(string toy) => $"Playing {toy}";
+
+    public int Play(int time)
+    {
+        var result = 0;
+        for(int i = 0; i < time; i++)
+        {
+            result += i;
+        }
+        return result;
+    }
+
     protected override string Eat()
     {
         return "Dog is eating";
     }
-    
+
     public string Eat2()
     {
         return Eat();

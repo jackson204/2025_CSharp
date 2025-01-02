@@ -42,8 +42,16 @@ public class UnitTest1
     [Fact]
     public void Test5()
     {
-        Dog dog = new Dog();
+        var dog = new Dog();
         dog.Play().Should().Be("Playing");
         dog.Eat2().Should().Be("Dog is eating");
+    }
+
+    [Fact]
+    public void Test6_overloading()
+    {
+        var dog = new Dog();
+        dog.Play().Should().Be("Playing");
+        dog.Play("AAA").Should().Be("Playing AAA");
     }
 }
