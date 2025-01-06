@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "型別與多型", "型別�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "抽象類別與方法", "抽象類別與方法\抽象類別與方法.csproj", "{3EA97C12-F822-4789-8863-B378686C1B97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base_and_this", "Base_and_this\Base_and_this.csproj", "{9EB65667-2BBB-41EF-BA56-505F0E232429}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{3EA97C12-F822-4789-8863-B378686C1B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EA97C12-F822-4789-8863-B378686C1B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EA97C12-F822-4789-8863-B378686C1B97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EB65667-2BBB-41EF-BA56-505F0E232429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EB65667-2BBB-41EF-BA56-505F0E232429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EB65667-2BBB-41EF-BA56-505F0E232429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EB65667-2BBB-41EF-BA56-505F0E232429}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
